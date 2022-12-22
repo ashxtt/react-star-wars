@@ -1,1 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+body{
+    margin:0;
+    
+    background-image: 'https://i.pinimg.com/originals/63/44/04/634404450fb7795d2d8b897a80b7b031.gif';
+}
 
+/*Nav*/
+
+.nav{
+    font-family: 'Share Tech Mono', monospace;
+    overflow: hidden;
+    background-color:#FFE81F;
+    padding-left: 16px;
+    box-shadow: 0 5px 5px -2px #363638;
+}
+
+
+.App{
+    
+}
+
+/*Starships*/
+.cards{
+    background-color: #FFE81F;
+    box-shadow: 4px 8px 0  black;
+    display: inline-block;
+    align-items: center;
+    flex-direction: row;
+    padding:10px;
+    width: 400px;
+    height: 200px;
+    margin:15px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Share Tech Mono', monospace;
+    border-radius: 10px;
+    border: 2px solid black;
+}
